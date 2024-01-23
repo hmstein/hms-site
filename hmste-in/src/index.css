@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+    .content {
+        @apply grow pl-24 h-screen overflow-y-auto bg-stone-800 text-white;
+    }
+
     .sidebar {
         @apply fixed top-0 left-0 h-screen w-24 m-0 
         flex flex-col
@@ -11,7 +15,7 @@
     
     .sidebar-icon {
         @apply relative flex items-center justify-center 
-        h-16 w-16 mt-2 mb-2 mx-auto shadow-lg
+        h-16 w-16 mt-4 mb-0 mx-auto shadow-lg
         bg-stone-600 text-yellow-400
         hover:bg-yellow-400 hover:text-stone-600;
     }
