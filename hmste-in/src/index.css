@@ -4,7 +4,10 @@
 
 @layer components {
     .content {
-        @apply grow pl-24 h-screen overflow-y-auto bg-stone-800 text-white;
+        @apply grow pl-24 flex flex-col h-screen overflow-y-auto font-mono bg-stone-800 text-yellow-100;
+    }
+    .content-text {
+        @apply flex flex-shrink items-center justify-center rounded-3xl text-2xl h-32 w-48 my-auto mx-auto bg-stone-700 shadow-lg;
     }
 
     .sidebar {

@@ -1,0 +1,28 @@
+GET http://localhost:3001/blogs
+
+###
+
+GET http://localhost:3001/blogs/{id}
+
+###
+
+POST http://localhost:3001/blogs
+Content-Type: application/json
+
+{
+    "title": "Test",
+    "post": "Test-O"
+}
+
+###
+
+DELETE http://localhost:3001/blogs/{id}
+
+###
+
+PATCH http://localhost:3001/blogs/{id}
+Content-Type: application/json
+
+{
+    "title": "Lorem Ipsum"
+}
