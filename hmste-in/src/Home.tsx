@@ -4,9 +4,8 @@ const Home = () => {
   return (
     <>
       <div className="flex-col pl-24 bg-stone-800 font-mono">
-        <div className="flex grow items-center h-1/2 overflow-clip">
+        <div className="flex items-center min-w-fit overflow-clip sm:h-36 md:h-1/2">
           <div className="mx-0">
-            {/*<img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true" />*/}
             <ProgressiveImg
               placeholderSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/tiny-City.jpg?raw=true"
               imgSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true"
