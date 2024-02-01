@@ -47,7 +47,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="mx-4 my-4">
-          <img src="src/assets/Harrison-1-17.jpg" />
+          <img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/Harrison-1-17.jpg?raw=true" />
         </div>
       </div>
     </>
