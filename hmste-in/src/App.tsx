@@ -1,17 +1,32 @@
 import { useState } from "react";
 import SideBar from "./SideBar";
-import Content from "./Content";
-import Header from "./Header";
+import AboutMe from "./AboutMe";
+import Socials from "./Socials";
+import Home from "./Home";
 
 function App() {
-  const [] = useState(0);
+  const [state, setState] = useState({ page: "Home" });
 
+  function pageClick(newPage: string) {
+    setState({ page: newPage });
+    console.log(state.page);
+  }
+
+  let content;
+  if (state.page === "Home") {
+    content = <Home />;
+  }
+  if (state.page === "AboutMe") {
+    content = <AboutMe />;
+  }
+  if (state.page === "Socials") {
+    content = <Socials />;
+  }
   return (
     <>
-      <Header />
       <div className="flex">
-        <SideBar />
-        <Content />
+        <SideBar handler={pageClick} />
+        {content}
       </div>
     </>
   );
