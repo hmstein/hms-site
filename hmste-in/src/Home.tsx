@@ -8,7 +8,7 @@ const Home = () => {
           <div className="mx-0">
             {/*<img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true" />*/}
             <ProgressiveImg
-              placeholderSrc="src/assets/tiny-City.jpg"
+              placeholderSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/tiny-City.jpg?raw=true"
               imgSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true"
               width="2000"
               height="965"

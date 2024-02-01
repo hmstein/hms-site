@@ -50,7 +50,7 @@ const AboutMe = () => {
         </div>
         <div className="mx-4 my-4">
           <ProgressiveImg
-            placeholderSrc="src/assets/tiny-Harrison-1-17.jpg"
+            placeholderSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/tiny-Harrison-1-17.jpg?raw=true"
             imgSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/Harrison-1-17.jpg?raw=true"
             width="500"
             height="750"
