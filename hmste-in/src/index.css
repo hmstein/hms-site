@@ -30,4 +30,8 @@
     .imgLoaded{
         clip-path: filter 0.5s linear;
     }
+
+    .image {
+        
+    }
 }

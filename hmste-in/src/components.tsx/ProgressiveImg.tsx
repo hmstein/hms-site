@@ -24,6 +24,11 @@ const ProgressiveImg = (props: Props) => {
     props.placeholderSrc && props.imgSrc === props.placeholderSrc
       ? "imgLoading"
       : "imgLoaded";
-  return <img {...{ src: imgState, ...props }} className={customClass} />;
+  return (
+    <img
+      {...{ src: imgState, width: props.width, height: props.height }}
+      className={`image ${customClass}`}
+    />
+  );
 };
 export default ProgressiveImg;

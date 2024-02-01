@@ -3,8 +3,8 @@ import ProgressiveImg from "./components.tsx/ProgressiveImg";
 const AboutMe = () => {
   return (
     <>
-      <div className="flex grow overflow-auto pl-24 bg-stone-800 font-mono">
-        <div className="grow flex-col overflow-scroll w-1/3 rounded-sm mx-4 my-4 p-4 text-orange-300 bg-stone-700 shadow-lg">
+      <div className="overflow-auto pl-24 bg-stone-800 font-mono lg:flex">
+        <div className="grow flex-col overflow-scroll lg:w-1/3 rounded-sm mx-4 my-4 p-4 text-orange-300 bg-stone-700 shadow-lg">
           <div className="text-3xl font-bold">About Me</div>
           <div className="flex flex-col p-1">
             <div className=" text-sm text-orange-100">
