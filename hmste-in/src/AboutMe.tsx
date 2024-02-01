@@ -1,3 +1,5 @@
+import ProgressiveImg from "./components.tsx/ProgressiveImg";
+
 const AboutMe = () => {
   return (
     <>
@@ -46,8 +48,13 @@ const AboutMe = () => {
             new projects in 2024.
           </div>
         </div>
-        <div className="mx-4 my-4 w-1/3">
-          <img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/Harrison-1-17.jpg?raw=true" />
+        <div className="mx-4 my-4">
+          <ProgressiveImg
+            placeholderSrc="src/assets/tiny-Harrison-1-17.jpg"
+            imgSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/Harrison-1-17.jpg?raw=true"
+            width="500"
+            height="750"
+          />
         </div>
       </div>
     </>

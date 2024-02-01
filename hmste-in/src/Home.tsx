@@ -1,10 +1,18 @@
+import ProgressiveImg from "./components.tsx/ProgressiveImg";
+
 const Home = () => {
   return (
     <>
       <div className="flex-col pl-24 bg-stone-800 font-mono">
         <div className="flex grow items-center h-1/2 overflow-clip">
-          <div className="mx-0 my-1 w-screen">
-            <img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true" />
+          <div className="mx-0">
+            {/*<img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true" />*/}
+            <ProgressiveImg
+              placeholderSrc="src/assets/tiny-City.jpg"
+              imgSrc="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true"
+              width="2000"
+              height="965"
+            />
           </div>
         </div>
         <div className="flex items-center justify-center text-center">
