@@ -3,7 +3,7 @@ const Home = () => {
     <>
       <div className="flex-col pl-24 bg-stone-800 font-mono">
         <div className="flex grow items-center h-1/2 overflow-clip">
-          <div className="mx-0 my-1">
+          <div className="mx-0 my-1 w-screen">
             <img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/City.jpg?raw=true" />
           </div>
         </div>

@@ -46,7 +46,7 @@ const AboutMe = () => {
             new projects in 2024.
           </div>
         </div>
-        <div className="mx-4 my-4">
+        <div className="mx-4 my-4 w-1/3">
           <img src="https://github.com/hmstein/hms-site/blob/main/hmste-in/src/assets/Harrison-1-17.jpg?raw=true" />
         </div>
       </div>
