@@ -22,12 +22,12 @@ const AboutMe = () => {
             front end development.
           </div>
           <div className="pt-3 text-orange-200">
-            Born and raised in the oft maligned state of New Jersey by a chef
-            and a travel agent, I love learning about culture through food. I
-            cook in my spare time and love checking out new restaurants every
-            chance I get. I currently live in New York and have spent my recent
-            down time traveling. I am also a hobbyist musician, and am always
-            ready to crack jokes over a tabletop RPG or card game.
+            Born and raised in New Jersey by a chef and a travel agent, I love
+            learning about culture through food. I cook in my spare time and
+            love checking out new restaurants every chance I get. I currently
+            live in New York and have spent my recent down time traveling. I am
+            also a hobbyist musician, and am always ready to crack jokes over a
+            tabletop RPG or card game.
           </div>
         </div>
         <div className="mx-4 my-4">
