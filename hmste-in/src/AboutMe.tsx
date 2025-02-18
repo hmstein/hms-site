@@ -8,7 +8,7 @@ const AboutMe = () => {
           <div className="text-3xl font-bold">About Me</div>
           <div className="flex flex-col p-1">
             <div className=" text-sm text-orange-100">Location: New Jersey</div>
-            <div className=" text-sm text-orange-100">Age: 33</div>
+            <div className=" text-sm text-orange-100">Age: 34</div>
           </div>
           <div className="pt-3 text-orange-200">
             Software Engineer with over 5 years of full time experience seeking
