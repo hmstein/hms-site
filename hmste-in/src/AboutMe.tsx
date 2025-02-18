@@ -7,27 +7,23 @@ const AboutMe = () => {
         <div className="flex-col grow lg:w-1/3 rounded-sm m-4 p-4 text-orange-300 bg-stone-700 shadow-lg">
           <div className="text-3xl font-bold">About Me</div>
           <div className="flex flex-col p-1">
-            <div className=" text-sm text-orange-100">
-              Location: Brooklyn, NY
-            </div>
+            <div className=" text-sm text-orange-100">Location: New Jersey</div>
             <div className=" text-sm text-orange-100">Age: 33</div>
           </div>
           <div className="pt-3 text-orange-200">
-            Welcome weary traveler. I'm a Software Engineer between jobs,
-            finally taking advantage of the time to work on some personal
-            projects, both creative and technical in nature. This site is meant
-            to act as my digital media card and a place to gather a portfolio. I
-            have primarily worked as a back end engineer in my professional
-            career, however I'm currently enjoying reacquainting myself with
-            front end development.
+            Software Engineer with over 5 years of full time experience seeking
+            opportunities to help build technology for growing organizations. I
+            specialize in back end technologies, but have robust experience
+            contributing to projects as a full stack engineer. I am an intuitive
+            learner, avid problem solver, and analytical thinker who values
+            collaboration and communication. I'm open to contract work or full
+            time eomployment.
           </div>
           <div className="pt-3 text-orange-200">
-            Born and raised in New Jersey by a chef and a travel agent, I love
-            learning about culture through food. I cook in my spare time and
-            love checking out new restaurants every chance I get. I currently
-            live in New York and have spent my recent down time traveling. I am
-            also a hobbyist musician, and am always ready to crack jokes over a
-            tabletop RPG or card game.
+            Since being laid off in 2023, I've taken time to travel, engage with
+            the creative pursuits outside my career, and helped my family
+            navigate through a medical crisis. In 2025, I'm seeking a new
+            endeavor with a fresh perspective.
           </div>
         </div>
         <div className="mx-4 my-4">

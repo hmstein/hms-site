@@ -17,7 +17,6 @@ const Home = () => {
         <div className="flex items-center justify-center text-center">
           <div className="text-center items-center justify-center text-3xl min-w-1/3 rounded-sm mx-4 my-8 p-8 bg-stone-700 text-orange-400">
             <div>Harrison M Stein</div>
-            <div className="text-lg text-orange-100">he/they</div>
             <i className="text-lg text-orange-100">Software Engineer</i>
           </div>
         </div>
